@@ -42,7 +42,7 @@ export default function Home() {
             <b className={styles.title}>zest club</b>
           </a>
           <p className={styles.description}>
-            a private application based "speakeasy" for students <br />
+            a private application based speakeasy for students <br />
             to get in people had to text a story of a time when they impacted
             someones life
             <br />
