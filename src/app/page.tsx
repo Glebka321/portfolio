@@ -5,7 +5,7 @@ export default function Home() {
     <div className={styles.container}>
       <header className={styles.header}>
         <img
-          src={"/image.jpg"}
+          src={"/image.png"}
           className={styles.image}
           width={200}
           height={200}
