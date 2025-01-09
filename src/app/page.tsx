@@ -27,10 +27,8 @@ export default function Home() {
             <b className={styles.title}>crtd</b>
           </a>
           <p className={styles.description}>
-            a social application to find out what your friends are <br />
+            a consumer social application to find out what your friends are{" "}
             reading / watching / listening to <br />
-            works by connecting your spotify, apple music, goodreads, letterboxd
-            account <br /> or by sharing links directly via SMS
           </p>
         </div>
         <div className={styles.project}>
@@ -42,11 +40,8 @@ export default function Home() {
             <b className={styles.title}>zest club</b>
           </a>
           <p className={styles.description}>
-            a private application based speakeasy for students <br />
-            to get in people had to text a story of a time when they impacted
-            someones life
+            a private application based &quot;speakeasy&quot; for students{" "}
             <br />
-            first project to earn cash
           </p>
         </div>
         <div className={styles.project}>
