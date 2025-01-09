@@ -28,6 +28,10 @@ export default function Home() {
           <p className={styles.description}>
             a consumer social application to find out what your friends are{" "}
             reading / watching / listening to <br />
+            <br />
+            <a href="">
+              <i>view project</i>
+            </a>
           </p>
         </div>
         <div className={styles.project}>
@@ -40,20 +44,10 @@ export default function Home() {
           </a>
           <p className={styles.description}>
             a private application based &quot;speakeasy&quot; for students{" "}
-            <br />
-          </p>
-        </div>
-        <div className={styles.project}>
-          <a
-            href="https://x.com/GlebTsyganov/status/1232777636834877440"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <b className={styles.title}>souply</b>
-          </a>
-          <p className={styles.description}>
-            an app that located free food around campus
-            <br />
+            <br /> <br />
+            <a href="">
+              <i>view project</i>
+            </a>
           </p>
         </div>
         <div className={styles.project}>
@@ -66,7 +60,10 @@ export default function Home() {
           </a>
           <p className={styles.description}>
             color guessing game like wordle <br /> <br />
-            <a href="/dots.png">image</a>
+            <a href="/dots.png">
+              {" "}
+              <i>view project</i>
+            </a>
           </p>
         </div>
         <div className={styles.project}>
@@ -79,7 +76,24 @@ export default function Home() {
           </a>
           <p className={styles.description}>
             a breathing exercise to reduce anxiety <br /> <br />
-            <a href="/478demo.m4v">image</a>
+            <a href="/478demo.m4v">
+              {" "}
+              <i>view project</i>
+            </a>
+          </p>
+        </div>
+        <div className={styles.project}>
+          <a
+            href="https://www.sfpostcard.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <b className={styles.title}>postcard</b>
+          </a>
+          <p className={styles.description}>
+            an app to send postcards to friends anonymously
+            <br /> <br />
+            <i>view project</i>
           </p>
         </div>
       </div>
