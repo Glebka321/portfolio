@@ -25,14 +25,14 @@ export default function Home() {
           >
             <b className={styles.title}>crtd</b>
           </a>
-          <p className={styles.description}>
-            a consumer social application to find out what your friends are{" "}
-            reading / watching / listening to <br />
-            <br />
-            <a href="">
+          <a href="/crtd">
+            <p className={styles.description}>
+              a consumer social application to find out what your friends are{" "}
+              reading / watching / listening to <br />
+              <br />
               <i>view project</i>
-            </a>
-          </p>
+            </p>
+          </a>
         </div>
         <div className={styles.project}>
           <a
@@ -42,13 +42,13 @@ export default function Home() {
           >
             <b className={styles.title}>zest club</b>
           </a>
-          <p className={styles.description}>
-            a private application based &quot;speakeasy&quot; for students{" "}
-            <br /> <br />
-            <a href="">
+          <a href="/zest">
+            <p className={styles.description}>
+              a private application based &quot;speakeasy&quot; for students{" "}
+              <br /> <br />
               <i>view project</i>
-            </a>
-          </p>
+            </p>
+          </a>
         </div>
         <div className={styles.project}>
           <a
@@ -58,13 +58,12 @@ export default function Home() {
           >
             <b className={styles.title}>dots</b>
           </a>
-          <p className={styles.description}>
-            color guessing game like wordle <br /> <br />
-            <a href="/dots.png">
-              {" "}
+          <a href="/dots">
+            <p className={styles.description}>
+              color guessing game like wordle <br /> <br />
               <i>view project</i>
-            </a>
-          </p>
+            </p>
+          </a>
         </div>
         <div className={styles.project}>
           <a
@@ -74,13 +73,12 @@ export default function Home() {
           >
             <b className={styles.title}>478</b>
           </a>
-          <p className={styles.description}>
-            a breathing exercise to reduce anxiety <br /> <br />
-            <a href="/478demo.m4v">
-              {" "}
+          <a href="/478">
+            <p className={styles.description}>
+              a breathing exercise to reduce anxiety <br /> <br />{" "}
               <i>view project</i>
-            </a>
-          </p>
+            </p>
+          </a>
         </div>
         <div className={styles.project}>
           <a
@@ -90,11 +88,13 @@ export default function Home() {
           >
             <b className={styles.title}>postcard</b>
           </a>
-          <p className={styles.description}>
-            an app to send postcards to friends anonymously
-            <br /> <br />
-            <i>view project</i>
-          </p>
+          <a href="/postcard">
+            <p className={styles.description}>
+              an app to send postcards to friends anonymously
+              <br /> <br />
+              <i>view project</i>
+            </p>
+          </a>
         </div>
       </div>
       <footer className={styles.footer}>
