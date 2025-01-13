@@ -4,7 +4,16 @@ import styles from "../Project.module.css";
 const ProjectOverview = () => {
   return (
     <div className={styles.container}>
-      <p className={styles.title}>dots</p>
+      <p className={styles.title}>
+        {" "}
+        <a
+          href="https://www.thedotsgame.xyz"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          dots
+        </a>
+      </p>
       <img className={styles.image} src="/dotsimage.png" />
       <div className={styles.description}>
         <p className={styles.header}>

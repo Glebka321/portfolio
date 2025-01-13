@@ -4,7 +4,15 @@ import styles from "../Project.module.css";
 const ProjectOverview = () => {
   return (
     <div className={styles.container}>
-      <p className={styles.title}>478</p>
+      <p className={styles.title}>
+        <a
+          href="https://www.4-7-8.cc"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          478
+        </a>
+      </p>
       <video controls className={styles.video}>
         <source src="/478demo.mp4" type="video/mp4" />
         Your browser does not support the video tag.
@@ -22,8 +30,7 @@ const ProjectOverview = () => {
           <b>Product</b>
         </p>
         <p className={styles.overview}>
-          a single use application to practice a breathing exercise that reduces
-          anxiety
+          an application to practice a breathing exercise that reduces anxiety
         </p>
       </div>
     </div>

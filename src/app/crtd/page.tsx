@@ -4,7 +4,16 @@ import styles from "../Project.module.css";
 const ProjectOverview = () => {
   return (
     <div className={styles.container}>
-      <p className={styles.title}>crtd</p>
+      <p className={styles.title}>
+        {" "}
+        <a
+          href="https://www.trycrtd.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          crtd{" "}
+        </a>
+      </p>
       <img className={styles.image} src="/crtd1.png" />
       <img className={styles.image} src="/crtd2.png" />
       <img className={styles.image} src="/crtd3.png" />

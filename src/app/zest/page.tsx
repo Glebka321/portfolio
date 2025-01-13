@@ -4,7 +4,16 @@ import styles from "../Project.module.css";
 const ProjectOverview = () => {
   return (
     <div className={styles.container}>
-      <p className={styles.title}>Zest Club</p>
+      <p className={styles.title}>
+        {" "}
+        <a
+          href="https://www.instagram.com/thezestclub/?hl=en"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Zest Club
+        </a>
+      </p>
       <img className={styles.image} src="/zestclubimage.png" />
       <div className={styles.description}>
         <p className={styles.header}>
@@ -27,7 +36,13 @@ const ProjectOverview = () => {
           students. To get in people had to text a story of when they impacted
           someones life and a song from their childhood. <br />
           To read more about how it was started: <br />
-          story 1 story 2
+          <a
+            href="https://gleb25.medium.com/a-speakeasy-in-wisco-46b4a8e7204a"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <u>origin story</u>
+          </a>
         </p>
       </div>
     </div>

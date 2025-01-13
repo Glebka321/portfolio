@@ -4,7 +4,15 @@ import styles from "../Project.module.css";
 const ProjectOverview = () => {
   return (
     <div className={styles.container}>
-      <p className={styles.title}>POSTCARD</p>
+      <p className={styles.title}>
+        <a
+          href="https://www.sfpostcard.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          POSTCARD
+        </a>
+      </p>
       <img className={styles.image} src="/postcardimage.png" />
       <div className={styles.description}>
         <p className={styles.header}>
