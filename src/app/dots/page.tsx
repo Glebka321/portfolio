@@ -30,6 +30,16 @@ const ProjectOverview = () => {
         <p className={styles.overview}>
           dots is a simple game to guess the combination of four colors
         </p>
+        <p className={styles.header}>
+          <b>Design process</b>
+        </p>
+        <p className={styles.overview}>
+          Inspired by mastermind a game I played as a kid. Poeple that played
+          mastermind before were able to understand how to play from the start,
+          for other it took a few attempts to understand. Design could be
+          improved by adding a modal that opens on first load, to explain the
+          rules a bit more.
+        </p>
       </div>
     </div>
   );

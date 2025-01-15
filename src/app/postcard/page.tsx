@@ -28,8 +28,16 @@ const ProjectOverview = () => {
         </p>
         <p className={styles.overview}>
           an app to send postcards to your friends anonymously <br />
-          exploration of engineering virality based on similar products from the
-          past
+        </p>
+        <p className={styles.header}>
+          <b>Design process</b>
+        </p>
+        <p className={styles.overview}>
+          With messenger apps it feels like we've become spoiled with instant
+          communication. Postcards was an exploration of bringing back the
+          nostalgic feeling of connecting with friends that are far away by
+          delaying the message. The product shifted to send postcards not just
+          to friends but also co-workers, crushes etc.
         </p>
       </div>
     </div>

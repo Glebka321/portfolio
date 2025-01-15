@@ -13,7 +13,7 @@ const ProjectOverview = () => {
           478
         </a>
       </p>
-      <video controls className={styles.video}>
+      <video controls autoPlay loop muted className={styles.video}>
         <source src="/478demo.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
@@ -31,6 +31,19 @@ const ProjectOverview = () => {
         </p>
         <p className={styles.overview}>
           an application to practice a breathing exercise that reduces anxiety
+        </p>
+        <p className={styles.header}>
+          <b>Design process</b>
+        </p>
+        <p className={styles.overview}>
+          I wanted to create a very minimalistic applciation that I could refer
+          to whenever I needed a moment. Breathing exercise are a superpower and
+          something I've been exploring and trying to integrate in my daily
+          routine. The initial page serves to explain the exercise for someone
+          who might not be familiar with the concept as well as give a moment to
+          prepare before starting. The design could be enhanced with an audio
+          component, guiding the user when to inhale / exhale if a user wanted
+          to practice with their eyes closed.
         </p>
       </div>
     </div>

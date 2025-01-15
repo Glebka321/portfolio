@@ -35,14 +35,17 @@ const ProjectOverview = () => {
           that time, so to solve that I decided to host small gatherings of 8
           students. To get in people had to text a story of when they impacted
           someones life and a song from their childhood. <br />
-          To read more about how it was started: <br />
-          <a
-            href="https://gleb25.medium.com/a-speakeasy-in-wisco-46b4a8e7204a"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <u>origin story</u>
-          </a>
+        </p>
+        <p className={styles.header}>
+          <b>Design process</b>
+        </p>
+        <p className={styles.overview}>
+          The idea was written in my notes app while I was on a plane returning
+          to my final semester on campus. Over a weekend created a landing page,
+          social media account, downloaded the student body email list. Most of
+          the work involved iterating on the copy of the emails to see which had
+          a higher open rate, as well as organizing events. The price to attend
+          was $15 and was my first project that started earning $.
         </p>
       </div>
     </div>
