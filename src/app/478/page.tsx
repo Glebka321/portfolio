@@ -38,7 +38,7 @@ const ProjectOverview = () => {
         <p className={styles.overview}>
           I wanted to create a very minimalistic applciation that I could refer
           to whenever I needed a moment. Breathing exercise are a superpower and
-          something I've been exploring and trying to integrate in my daily
+          something I&apos;ve been exploring and trying to integrate in my daily
           routine. The initial page serves to explain the exercise for someone
           who might not be familiar with the concept as well as give a moment to
           prepare before starting. The design could be enhanced with an audio

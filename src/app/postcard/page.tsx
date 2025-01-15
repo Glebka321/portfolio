@@ -13,7 +13,7 @@ const ProjectOverview = () => {
           POSTCARD
         </a>
       </p>
-      <img className={styles.image} src="/postcardimage.png" />
+      <img className={styles.image} src="/postcardimage.png" alt={""} />
       <div className={styles.description}>
         <p className={styles.header}>
           <b>Role</b>
@@ -33,9 +33,9 @@ const ProjectOverview = () => {
           <b>Design process</b>
         </p>
         <p className={styles.overview}>
-          With messenger apps it feels like we've become spoiled with instant
-          communication. Postcards was an exploration of bringing back the
-          nostalgic feeling of connecting with friends that are far away by
+          With messenger apps it feels like we&apos;ve become spoiled with
+          instant communication. Postcards was an exploration of bringing back
+          the nostalgic feeling of connecting with friends that are far away by
           delaying the message. The product shifted to send postcards not just
           to friends but also co-workers, crushes etc.
         </p>

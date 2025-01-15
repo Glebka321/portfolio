@@ -14,7 +14,7 @@ const ProjectOverview = () => {
           dots
         </a>
       </p>
-      <img className={styles.image} src="/dotsimage.png" />
+      <img className={styles.image} src="/dotsimage.png" alt={""} />
       <div className={styles.description}>
         <p className={styles.header}>
           <b>Role</b>
