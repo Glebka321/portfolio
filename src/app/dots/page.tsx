@@ -34,11 +34,8 @@ const ProjectOverview = () => {
           <b>Design process</b>
         </p>
         <p className={styles.overview}>
-          Inspired by mastermind a game I played as a kid. Poeple that played
-          mastermind before were able to understand how to play from the start,
-          for other it took a few attempts to understand. Design could be
-          improved by adding a modal that opens on first load, to explain the
-          rules a bit more.
+          Inspired by mastermind a game I played as a kid. Experience could be
+          improved by adding a modal to explain the rules more
         </p>
       </div>
     </div>
