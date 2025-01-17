@@ -1,7 +1,27 @@
+"use client";
 import React from "react";
 import styles from "../Project.module.css";
+import { useState, useEffect } from "react";
 
 const ProjectOverview = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Function to check screen size
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 767); // Adjust the breakpoint as needed
+    };
+
+    // Initial check
+    checkMobile();
+
+    // Add a resize event listener
+    window.addEventListener("resize", checkMobile);
+
+    // Cleanup the event listener on component unmount
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
   return (
     <div className={styles.container}>
       <p className={styles.title}>
@@ -49,7 +69,11 @@ const ProjectOverview = () => {
           on Sunday using Mailchimp <br />
           Below is how the newsletter looked:
         </p>
-        <img className={styles.image} src="/crtdfirst.png" alt={""} />
+        <img
+          className={styles.image}
+          src={isMobile ? "/crtd_mobile_news.png" : "/crtdfirst.png"}
+          alt={""}
+        />
         <p className={styles.overview}>
           There was a lot of manual work with the newsletter, and reaching out
           to people to remind them to send links wasn&apos;t ideal. I decided to
@@ -60,7 +84,11 @@ const ProjectOverview = () => {
           a url to a weekly digest. This worked okay for awhile but didn&apos;t
           have enough feedback loops for users to continue to share links
         </p>
-        <img className={styles.image} src="/crtdsecond.png" alt={""} />
+        <img
+          className={styles.image}
+          src={isMobile ? "/crtd_contact_mobile.png" : "/crtdsecond.png"}
+          alt={""}
+        />
         <p className={styles.overview}>
           The last iteration was more invloved. This time with a co-founder. The
           core of the product remained the same -- sharing links via SMS. We
@@ -75,11 +103,21 @@ const ProjectOverview = () => {
         <p className={styles.overview}>
           Personal invitation cards to invite users
         </p>
-        <video controls autoPlay loop muted className={styles.videoInvite}>
+        <video
+          controls
+          autoPlay
+          loop
+          muted
+          className={isMobile ? styles.videoInviteMobile : styles.videoInvite}
+        >
           <source src="/crtd_invites.mp4" type="video/mp4" />
         </video>
         <p className={styles.overview}>Widget for iOS</p>
-        <img className={styles.image} src="/crtdthird.png" alt={""} />
+        <img
+          className={styles.image}
+          src={isMobile ? "/crtd_widget_mobile.png" : "/crtdthird.png"}
+          alt={""}
+        />
       </div>
     </div>
   );
