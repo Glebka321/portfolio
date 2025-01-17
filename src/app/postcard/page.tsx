@@ -18,16 +18,16 @@ const ProjectOverview = () => {
         <p className={styles.header}>
           <b>Role</b>
         </p>
-        <p className={styles.overview}>creator</p>
+        <p className={styles.overview}>Creator</p>
         <p className={styles.header}>
           <b>Duration</b>
         </p>
-        <p className={styles.overview}>weekend project</p>
+        <p className={styles.overview}>Weekend project</p>
         <p className={styles.header}>
           <b>Product</b>
         </p>
         <p className={styles.overview}>
-          an app to send postcards to your friends anonymously <br />
+          An app to send postcards to your friends anonymously <br />
         </p>
         <p className={styles.header}>
           <b>Design process</b>

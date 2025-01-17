@@ -41,7 +41,7 @@ const ProjectOverview = () => {
         <p className={styles.header}>
           <b>Role</b>
         </p>
-        <p className={styles.overview}>co-founder</p>
+        <p className={styles.overview}>Co-founder</p>
         <p className={styles.header}>
           <b>Duration</b>
         </p>

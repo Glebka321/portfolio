@@ -1,7 +1,26 @@
+"use client";
 import React from "react";
 import styles from "../Project.module.css";
+import { useState, useEffect } from "react";
 
 const ProjectOverview = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Function to check screen size
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 767); // Adjust the breakpoint as needed
+    };
+
+    // Initial check
+    checkMobile();
+
+    // Add a resize event listener
+    window.addEventListener("resize", checkMobile);
+
+    // Cleanup the event listener on component unmount
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
   return (
     <div className={styles.container}>
       <p className={styles.title}>
@@ -14,12 +33,16 @@ const ProjectOverview = () => {
           Zest Club
         </a>
       </p>
-      <img className={styles.image} src="/zestclubimage.png" alt={""} />
+      <img
+        className={styles.image}
+        src={isMobile ? "/zest_club_mobile.png" : "/zestclubimage.png"}
+        alt={""}
+      />
       <div className={styles.description}>
         <p className={styles.header}>
           <b>Role</b>
         </p>
-        <p className={styles.overview}>founder</p>
+        <p className={styles.overview}>Founder</p>
 
         <p className={styles.header}>
           <b>Duration</b>

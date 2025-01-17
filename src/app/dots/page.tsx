@@ -19,7 +19,7 @@ const ProjectOverview = () => {
         <p className={styles.header}>
           <b>Role</b>
         </p>
-        <p className={styles.overview}>creator</p>
+        <p className={styles.overview}>Creator</p>
         <p className={styles.header}>
           <b>Duration</b>
         </p>
