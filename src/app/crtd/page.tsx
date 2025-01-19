@@ -90,12 +90,13 @@ const ProjectOverview = () => {
           alt={""}
         />
         <p className={styles.overview}>
-          The last iteration was more invloved. This time with a co-founder. The
+          The last iteration was more invloved. This time with a co-founder. I
+          still beleived that SMS is the most low friction UX. Thats why the
           core of the product remained the same -- sharing links via SMS. We
-          added integrations with Spotify, Apple Music, Goodreads and Letterboxd
-          to pull data from those services. The result was a dynamic link-in-bio
-          page users could use to display the content they&apos;re consuming as
-          well as discover what people they follow are into.
+          also added integrations with Spotify, Apple Music, Goodreads and
+          Letterboxd to pull data from those services. The result was a dynamic
+          link-in-bio page users could use to display the content they&apos;re
+          consuming as well as discover what people they follow are into.
         </p>
         <p className={styles.header}>
           <b>Other assets</b>
@@ -115,7 +116,7 @@ const ProjectOverview = () => {
         <p className={styles.overview}>Widget for iOS</p>
         <img
           className={styles.image}
-          src={isMobile ? "/crtd_widget_mobile.png" : "/crtdthird.png"}
+          src={isMobile ? "/crtd_mobile_widget.png" : "/crtdthird.png"}
           alt={""}
         />
       </div>
