@@ -90,14 +90,19 @@ const ProjectOverview = () => {
           alt={""}
         />
         <p className={styles.overview}>
-          The last iteration was more invloved. This time with a co-founder. I
-          still beleived that SMS is the most low friction UX. Thats why the
-          core of the product remained the same -- sharing links via SMS. We
-          also added integrations with Spotify, Apple Music, Goodreads and
-          Letterboxd to pull data from those services. The result was a dynamic
-          link-in-bio page users could use to display the content they&apos;re
-          consuming as well as discover what people they follow are into.
+          On the final iteration we added integrations with Spotify, Apple
+          Music, Goodreads and Letterboxd to pull data from those services. I
+          still believed that SMS is the most low friction UX. Thats why the
+          core of the product remained the same -- sharing links via text
+          message. The result was a dynamic link-in-bio page users could use to
+          display the content they&apos;re consuming as well as discover what
+          people they follow are into.
         </p>
+        <img
+          className={styles.image}
+          src={isMobile ? "/crtdprofilemobile.png" : "/crtdprofile.png"}
+          alt={""}
+        />
         <p className={styles.header}>
           <b>Other assets</b>
         </p>
@@ -119,6 +124,16 @@ const ProjectOverview = () => {
           src={isMobile ? "/crtd_mobile_widget.png" : "/crtdthird.png"}
           alt={""}
         />
+        <p className={styles.overview}>Billboard Campaign in NYC</p>
+        <video
+          controls
+          autoPlay
+          loop
+          muted
+          className={isMobile ? styles.videoInviteMobile : styles.videoInvite}
+        >
+          <source src="/crtd_billboard.mp4" type="video/mp4" />
+        </video>
       </div>
     </div>
   );

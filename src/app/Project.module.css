@@ -10,6 +10,7 @@
     .title {
       font-weight: 600;
       font-size: 1.5rem;
+      color: #000000;
     }
     .header {
         font-size: 0.9rem;
@@ -40,7 +41,7 @@
     .description {
       /* margin-bottom: 40px; */
       padding-bottom: 40px;
-      
+      background-color: #FFFFFF;
     }
 
     .overview {
