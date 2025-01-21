@@ -23,7 +23,7 @@ const ProjectOverview = () => {
         <p className={styles.header}>
           <b>Duration</b>
         </p>
-        <p className={styles.overview}>weekend project</p>
+        <p className={styles.overview}>Weekend project</p>
         <p className={styles.header}>
           <b>Product</b>
         </p>
@@ -34,8 +34,11 @@ const ProjectOverview = () => {
           <b>Design process</b>
         </p>
         <p className={styles.overview}>
-          Inspired by mastermind a game I played as a kid. Experience could be
-          improved by adding a modal to explain the rules more
+          Inspired by mastermind a game I played as a kid. The biggest challenge
+          was creating the feedback after a player submits a guess. When people
+          played for the first time they shared that they thought the squares
+          represented the order of the circles, which is not the case.
+          Experience could be improved by adding a modal that explains the rules
         </p>
       </div>
     </div>

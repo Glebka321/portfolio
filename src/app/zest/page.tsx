@@ -77,7 +77,9 @@ const ProjectOverview = () => {
           Before launching it I wasn&apos;t sure what the response would be but
           it was worth trying out. Zest Club resonated immediately, within 20
           minutes of sending out the first email blast, students started
-          applying to get in.
+          applying to get in. It was gratifying to create an experience that
+          people were willing to pay for. As well as the overall impact it had
+          on campus -- overhearing students randomly bring it up during class.
         </p>
       </div>
     </div>
