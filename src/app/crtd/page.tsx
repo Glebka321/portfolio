@@ -92,11 +92,11 @@ const ProjectOverview = () => {
         <p className={styles.overview}>
           On the final iteration we added integrations with Spotify, Apple
           Music, Goodreads and Letterboxd to pull data from those services. I
-          still believed that SMS is the most low friction UX. Thats why the
-          core of the product remained the same -- sharing links via text
-          message. The result was a dynamic link-in-bio page users could use to
-          display the content they&apos;re consuming as well as discover what
-          people they follow are into.
+          still believe that SMS is the most low friction UX for a product like
+          this. Thats why the core of the product remained the same -- sharing
+          links via text message. The result was a dynamic link-in-bio page
+          users could use to display the content they&apos;re consuming as well
+          as discover what people they follow are into.
         </p>
         <img
           className={styles.image}
@@ -104,8 +104,35 @@ const ProjectOverview = () => {
           alt={""}
         />
         <p className={styles.header}>
+          <b>Reflection</b>
+        </p>
+        <p className={styles.overview}>
+          I believe there&apos;s an opportunity in building on top of messenger
+          apps as the primary interface for social applications, as those are
+          the applications people open everyday. With crtd we were eventually
+          planning out building support for Telegram to cover the European
+          market and Whatsapp for LATAM market. During this time we received
+          over 26,000 submissions.
+        </p>
+        <p className={styles.header}>
           <b>Other assets</b>
         </p>
+        <p className={styles.overview}>Widget for iOS</p>
+        <img
+          className={styles.image}
+          src={isMobile ? "/crtd_mobile_widget.png" : "/crtdthird.png"}
+          alt={""}
+        />
+        <p className={styles.overview}>Onboarding video</p>
+        <video
+          controls
+          autoPlay
+          loop
+          muted
+          className={isMobile ? styles.videoInviteMobile : styles.videoInvite}
+        >
+          <source src="/onboarding.mp4" type="video/mp4" />
+        </video>
         <p className={styles.overview}>
           Personal invitation cards to invite users
         </p>
@@ -118,12 +145,7 @@ const ProjectOverview = () => {
         >
           <source src="/crtd_invites.mp4" type="video/mp4" />
         </video>
-        <p className={styles.overview}>Widget for iOS</p>
-        <img
-          className={styles.image}
-          src={isMobile ? "/crtd_mobile_widget.png" : "/crtdthird.png"}
-          alt={""}
-        />
+
         <p className={styles.overview}>Billboard Campaign in NYC</p>
         <video
           controls
