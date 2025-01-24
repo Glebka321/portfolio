@@ -38,50 +38,50 @@ const ProjectOverview = () => {
         src={isMobile ? "/zestmobile.png" : "/zest.png"}
         alt={""}
       />
-      <div className={styles.description}>
-        <p className={styles.header}>
-          <b>Role</b>
-        </p>
-        <p className={styles.overview}>Founder</p>
+      {/* <div className={styles.description}> */}
+      <p className={styles.header}>
+        <b>Role</b>
+      </p>
+      <p className={styles.overview}>Founder</p>
 
-        <p className={styles.header}>
-          <b>Duration</b>
-        </p>
-        <p className={styles.overview}>6 months</p>
+      <p className={styles.header}>
+        <b>Duration</b>
+      </p>
+      <p className={styles.overview}>6 months</p>
 
-        <p className={styles.header}>
-          <b>Product</b>
-        </p>
-        <p className={styles.overview}>
-          Zest Club was a project I launched during my last semester at
-          UW-Madison in Spring of 2021. Nothing socially was happeing on campus
-          during that time, so to solve that I decided to host small gatherings
-          of 8 students. To get in people had to text a story of when they
-          impacted someones life and a song from their childhood. <br />
-        </p>
-        <p className={styles.header}>
-          <b>Design process</b>
-        </p>
-        <p className={styles.overview}>
-          The idea was written in my notes app while I was on a plane returning
-          to my final semester on campus. Over a weekend created a landing page,
-          social media account, downloaded the student body email list. Most of
-          the work involved iterating on the copy of the emails to see which had
-          a higher open rate, as well as organizing events. The price to attend
-          was $15 and was my first project that started earning $.
-        </p>
-        <p className={styles.header}>
-          <b>Reflection</b>
-        </p>
-        <p className={styles.overview}>
-          Before launching it I wasn&apos;t sure what the response would be but
-          it was worth trying out. Zest Club resonated immediately, within 20
-          minutes of sending out the first email blast, students started
-          applying to get in. It was gratifying to create an experience that
-          people were willing to pay for. As well as the overall impact it had
-          on campus -- overhearing students randomly bring it up during class.
-        </p>
-      </div>
+      <p className={styles.header}>
+        <b>Product</b>
+      </p>
+      <p className={styles.overview}>
+        Zest Club was a project I launched during my last semester at UW-Madison
+        in Spring of 2021. Nothing socially was happeing on campus during that
+        time, so to solve that I decided to host small gatherings of 8 students.
+        To get in people had to text a story of when they impacted someones life
+        and a song from their childhood. <br />
+      </p>
+      <p className={styles.header}>
+        <b>Design process</b>
+      </p>
+      <p className={styles.overview}>
+        The idea was written in my notes app while I was on a plane returning to
+        my final semester on campus. Over a weekend created a landing page,
+        social media account, downloaded the student body email list. Most of
+        the work involved iterating on the copy of the emails to see which had a
+        higher open rate, as well as organizing events. The price to attend was
+        $15 and was my first project that started earning $.
+      </p>
+      <p className={styles.header}>
+        <b>Reflection</b>
+      </p>
+      <p className={styles.overview}>
+        Before launching it I wasn&apos;t sure what the response would be but it
+        was worth trying out. Zest Club resonated immediately, within 20 minutes
+        of sending out the first email blast, students started applying to get
+        in. It was gratifying to create an experience that people were willing
+        to pay for. As well as the overall impact it had on campus --
+        overhearing students randomly bring it up during class.
+      </p>
+      {/* </div> */}
     </div>
   );
 };
