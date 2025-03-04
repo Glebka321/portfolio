@@ -34,22 +34,7 @@ export default function Home() {
             </p>
           </a>
         </div>
-        <div className={styles.project}>
-          <a
-            href="https://www.instagram.com/thezestclub/?hl=en"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <b className={styles.title}>zest club</b>
-          </a>
-          <a href="/zest">
-            <p className={styles.description}>
-              a private application based &quot;speakeasy&quot; for students{" "}
-              <br /> <br />
-              <i>view project</i>
-            </p>
-          </a>
-        </div>
+
         <div className={styles.project}>
           <a
             href="https://www.thedotsgame.xyz"
@@ -91,6 +76,22 @@ export default function Home() {
           <a href="/postcard">
             <p className={styles.description}>
               an app to send postcards to friends anonymously
+              <br /> <br />
+              <i>view project</i>
+            </p>
+          </a>
+        </div>
+        <div className={styles.project}>
+          <a
+            href="https://www.instagram.com/thezestclub/?hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <b className={styles.title}>zest club</b>
+          </a>
+          <a href="/zest">
+            <p className={styles.description}>
+              a private application based &quot;speakeasy&quot; for students{" "}
               <br /> <br />
               <i>view project</i>
             </p>
