@@ -19,9 +19,7 @@ export default function Home() {
       <div className={styles.projects}>
         <div className={styles.project}>
           <a
-            href="https://www.trycrtd.com"
-            target="_blank"
-            rel="noopener noreferrer"
+          href="/crtd"
           >
             <b className={styles.title}>crtd</b>
           </a>
@@ -34,7 +32,21 @@ export default function Home() {
             </p>
           </a>
         </div>
-
+        <div className={styles.project}>
+          <a
+            href="https://apps.apple.com/us/app/four-seven-eight/id6749875998"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <b className={styles.title}>478</b>
+          </a>
+          <a href="/478">
+            <p className={styles.description}>
+              a breathing app to reduce anxiety <br /> <br />{" "}
+              <i>view project</i>
+            </p>
+          </a>
+        </div>
         <div className={styles.project}>
           <a
             href="https://www.thedotsgame.xyz"
@@ -50,22 +62,8 @@ export default function Home() {
             </p>
           </a>
         </div>
-        <div className={styles.project}>
-          <a
-            href="https://www.4-7-8.cc"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <b className={styles.title}>478</b>
-          </a>
-          <a href="/478">
-            <p className={styles.description}>
-              a breathing exercise to reduce anxiety <br /> <br />{" "}
-              <i>view project</i>
-            </p>
-          </a>
-        </div>
-        <div className={styles.project}>
+        
+        {/* <div className={styles.project}>
           <a
             href="https://www.sfpostcard.com"
             target="_blank"
@@ -80,7 +78,7 @@ export default function Home() {
               <i>view project</i>
             </p>
           </a>
-        </div>
+        </div> */}
         <div className={styles.project}>
           <a
             href="https://www.instagram.com/thezestclub/?hl=en"

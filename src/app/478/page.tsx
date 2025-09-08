@@ -6,17 +6,14 @@ const ProjectOverview = () => {
     <div className={styles.container}>
       <p className={styles.title}>
         <a
-          href="https://www.4-7-8.cc"
+          href="https://apps.apple.com/us/app/four-seven-eight/id6749875998"
           target="_blank"
           rel="noopener noreferrer"
         >
           478
         </a>
       </p>
-      <video controls autoPlay loop muted className={styles.video}>
-        <source src="/478demo.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      <img className={styles.image} src="/478.png" alt={""} />
       <div className={styles.description}>
         <p className={styles.header}>
           <b>Role</b>
@@ -25,7 +22,7 @@ const ProjectOverview = () => {
         <p className={styles.header}>
           <b>Duration</b>
         </p>
-        <p className={styles.overview}>Week night project</p>
+        <p className={styles.overview}>2 week sprint</p>
         <p className={styles.header}>
           <b>Product</b>
         </p>
@@ -39,11 +36,9 @@ const ProjectOverview = () => {
           I wanted to create a very minimalistic applciation that I could refer
           to whenever I needed a moment. Breathing exercise are a superpower and
           something I&apos;ve been exploring and trying to integrate in my daily
-          routine. The initial page serves to explain the exercise for someone
-          who might not be familiar with the concept as well as give a moment to
-          prepare before starting. The design could be enhanced with an audio
-          component, guiding the user when to inhale / exhale if a user wanted
-          to practice with their eyes closed.
+          routine. The app focuses on just one excercise, when a user opens the app 
+          they can immediately start the exercise. There is no lengthy onboarding or 
+          authorization all data is stored on the device.
         </p>
       </div>
     </div>
