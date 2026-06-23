@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../Project.module.css";
+import { ProjectImage } from "../ProjectMedia";
 
 const ProjectOverview = () => {
   return (
@@ -13,32 +14,40 @@ const ProjectOverview = () => {
           478
         </a>
       </p>
-      <img className={styles.image} src="/478.png" alt={""} />
+      <ProjectImage src="/478.png" width={1920} height={1080} alt={""} priority />
       <div className={styles.description}>
         <p className={styles.header}>
           <b>Role</b>
         </p>
-        <p className={styles.overview}>Creator</p>
+        <p className={styles.overview}>founder</p>
         <p className={styles.header}>
-          <b>Duration</b>
+          <b>Date</b>
         </p>
-        <p className={styles.overview}>2 week sprint</p>
+        <p className={styles.overview}>September 2025</p>
         <p className={styles.header}>
           <b>Product</b>
         </p>
         <p className={styles.overview}>
-          An application to practice a breathing exercise that reduces anxiety
+          iOS app to practice 4-7-8 breathing method
         </p>
         <p className={styles.header}>
           <b>Design process</b>
         </p>
         <p className={styles.overview}>
-          I wanted to create a very minimalistic applciation that I could refer
-          to whenever I needed a moment. Breathing exercise are a superpower and
-          something I&apos;ve been exploring and trying to integrate in my daily
-          routine. The app focuses on just one excercise, when a user opens the app 
-          they can immediately start the exercise. There is no lengthy onboarding or 
-          authorization all data is stored on the device.
+          We take roughly 20,000 breaths each day, and most of them go
+          unnoticed. Taking the time to shift our focus on our breathing has
+          profound impacts. This app is an ode to my favorite breathing method.
+          When a user opens the app they can immediately start the exercise.
+          There is no lengthy onboarding or authorization, all data is stored on
+          device.
+        </p>
+        <p className={styles.overview}>
+          Around 50+ installs each month without any marketing.
+        </p>
+        <p className={styles.overview}>
+          A comment from a user from Ireland that encapsulates the product best:
+          &quot;5 stars. It is free, no ads, does exactly what it has to
+          do&quot;
         </p>
       </div>
     </div>

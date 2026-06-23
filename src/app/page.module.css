@@ -2,7 +2,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items:flex-start;
+  align-items: flex-start;
   justify-content: center;
   padding-left: 10%;
   background-color: white;
@@ -10,11 +10,11 @@
 }
 
 .header {
-    /* text-align: center; */
-    margin-bottom: 40px;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
+  /* text-align: center; */
+  margin-bottom: 40px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
 }
 
 .headerText {
@@ -49,12 +49,11 @@
   gap: 0px;
 }
 
-
 @media (max-width: 600px) {
   .project {
     display: flex;
     flex-direction: column; /* Stack content vertically */
-    gap: 10px; 
+    gap: 10px;
   }
 
   .description {
@@ -69,6 +68,7 @@
 .title {
   text-decoration: underline;
   color: #000000;
+  font-weight: 550;
 }
 
 .footer {
