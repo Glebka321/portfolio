@@ -22,7 +22,12 @@ const ProjectOverview = () => {
         alt={"first"}
         priority
       />
-      <ProjectImage src="/crtd2.png" width={1920} height={1080} alt={"second"} />
+      <ProjectImage
+        src="/crtd2.png"
+        width={1920}
+        height={1080}
+        alt={"second"}
+      />
       <ProjectImage src="/crtd3.png" width={1920} height={1080} alt={"third"} />
       <div className={styles.description}>
         <p className={styles.header}>
@@ -69,15 +74,19 @@ const ProjectOverview = () => {
         </p>
         <ProjectPicture
           desktop={{ src: "/crtdsecond.png", width: 1920, height: 1080 }}
-          mobile={{ src: "/crtd_contact_mobile.png", width: 1080, height: 1920 }}
+          mobile={{
+            src: "/crtd_contact_mobile.png",
+            width: 1080,
+            height: 1920,
+          }}
           alt={""}
         />
         <p className={styles.overview}>
           Final iteration, was implemented through integrations with Spotify,
           Apple Music, Goodreads and Letterboxd to pull data from those
           services. I still believe that SMS is the most low friction UX for a
-          product like this. That&apos;s why the core of the product remained the same
-          -- sharing links via text message. The result was a dynamic
+          product like this. That&apos;s why the core of the product remained
+          the same -- sharing links via text message. The result was a dynamic
           link-in-bio page users could use to display the content they&apos;re
           consuming as well as discover what people they follow are into.
         </p>
@@ -99,7 +108,7 @@ const ProjectOverview = () => {
           <b>Other assets</b>
         </p>
         <div className={styles.assetRow}>
-          <div className={styles.assetItem}>
+          {/* <div className={styles.assetItem}>
             <p className={styles.assetTitle}>Widget for iOS</p>
             <ProjectPicture
               desktop={{ src: "/crtdthird.png", width: 1920, height: 1080 }}
@@ -110,7 +119,7 @@ const ProjectOverview = () => {
               }}
               alt={""}
             />
-          </div>
+          </div> */}
           <div className={styles.assetItem}>
             <p className={styles.assetTitle}>Onboarding video</p>
             <video
@@ -126,9 +135,7 @@ const ProjectOverview = () => {
             </video>
           </div>
           <div className={styles.assetItem}>
-            <p className={styles.assetTitle}>
-              Personal invitation cards to invite users
-            </p>
+            <p className={styles.assetTitle}>Invitation cards</p>
             <video
               controls
               loop
@@ -142,7 +149,7 @@ const ProjectOverview = () => {
             </video>
           </div>
           <div className={styles.assetItem}>
-            <p className={styles.assetTitle}>Billboard Campaign in NYC</p>
+            <p className={styles.assetTitle}>Billboard Campaign</p>
             <video
               controls
               loop
