@@ -35,7 +35,7 @@ const ProjectOverview = () => {
         </p>
         <p className={styles.overview}>co-founder</p>
         <p className={styles.header}>
-          <b>Duration</b>
+          <b>Date</b>
         </p>
         <p className={styles.overview}>August 2023</p>
         <p className={styles.header}>
