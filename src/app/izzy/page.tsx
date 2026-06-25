@@ -60,10 +60,8 @@ const ProjectOverview = () => {
           initially reject.
         </p>
         <p className={styles.overview}>
-          In October 2025, I started thinking more about AI companionship. I
-          knew for sure, is that I didn&apos;t want to create a product that
-          would replace human connection. But rather, help us better understand
-          ourselves by interacting with AI companions. An article written by
+          In October 2025, I started thinking more about AI companionship. An
+          article written by
           <a
             href="https://kk.org/thetechnium/emotional-agents/"
             target="_blank"
