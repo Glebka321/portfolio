@@ -60,14 +60,15 @@ const ProjectOverview = () => {
           initially reject.
         </p>
         <p className={styles.overview}>
-          In October 2025, I started thinking more about AI companionship. What
-          I knew for sure, is that I didn&apos;t want to create a product that
+          In October 2025, I started thinking more about AI companionship. I
+          knew for sure, is that I didn&apos;t want to create a product that
           would replace human connection. But rather, help us better understand
           ourselves by interacting with AI companions. An article written by
           <a
             href="https://kk.org/thetechnium/emotional-agents/"
             target="_blank"
             rel="noopener noreferrer"
+            className="styles.underline"
           >
             {" "}
             Kevin Kelly on emotional agents
@@ -82,17 +83,11 @@ const ProjectOverview = () => {
             href="https://medium.com/@gleb25/how-to-get-to-5-on-the-app-store-9c1b31d983e5"
             target="_blank"
             rel="noopener noreferrer"
+            className="styles.underline"
           >
             The story of how we got there in more detail can be read on
-            Medium{" "}
+            Medium.{" "}
           </a>
-        </p>
-        <p className={styles.overview}>
-          Given, interacting with AI companions is a new and at times
-          controversial subject. I wanted to make sure interacting with them
-          felt familiar, that&apos;s why the chat interface resembles iMessage.
-          A small detail I love is that users can get to anywhere in the app
-          with at most 2 presses.
         </p>
       </div>
     </div>

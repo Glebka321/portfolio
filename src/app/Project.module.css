@@ -75,6 +75,10 @@
   margin-bottom: 8px;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .assetItem .image,
 .assetItem .videoInvite,
 .assetItem .videoInviteMobile {
