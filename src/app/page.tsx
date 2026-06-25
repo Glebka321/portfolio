@@ -57,7 +57,7 @@ export default function Home() {
             </p>
           </a>
         </div>
-        <div className={styles.project}>
+        {/* <div className={styles.project}>
           <a
             href="https://www.poolside.ink"
             target="_blank"
@@ -72,7 +72,7 @@ export default function Home() {
               <i>view project</i>
             </p>
           </a>
-        </div>
+        </div> */}
         <div className={styles.project}>
           <a
             href="https://www.instagram.com/thezestclub/?hl=en"
