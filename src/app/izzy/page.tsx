@@ -71,7 +71,7 @@ const ProjectOverview = () => {
             className="styles.underline"
           >
             {" "}
-            Kevin Kelly on emotional agents
+            <i>Kevin Kelly on emotional agents</i>
           </a>{" "}
           gave me more conviction that this is the future, and it&apos;s worth
           playing a part in it.
@@ -85,8 +85,8 @@ const ProjectOverview = () => {
             rel="noopener noreferrer"
             className="styles.underline"
           >
-            The story of how we got there in more detail can be read on
-            Medium.{" "}
+            The story of how we got there in more detail can be read on{" "}
+            <i>Medium.</i>{" "}
           </a>
         </p>
       </div>
