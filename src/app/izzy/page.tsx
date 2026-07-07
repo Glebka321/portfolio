@@ -46,7 +46,7 @@ const ProjectOverview = () => {
         <p className={styles.header}>
           <b>Product</b>
         </p>
-        <p className={styles.overview}>an AI companion app</p>
+        <p className={styles.overview}>AI companion app</p>
         <p className={styles.header}>
           <b>Design</b>
         </p>

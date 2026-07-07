@@ -46,7 +46,8 @@
   display: grid;
   grid-template-columns: 200px auto; /* Title takes 150px, description takes the rest */
   align-items: start; /* Ensures vertical alignment */
-  gap: 0px;
+  gap: 10px;
+  padding-bottom: 15px;
 }
 
 @media (max-width: 600px) {
@@ -54,6 +55,12 @@
     display: flex;
     flex-direction: column; /* Stack content vertically */
     gap: 10px;
+    width: 100%;
+    max-width: calc(100vw - 20%);
+  }
+
+  .project a {
+    max-width: 100%;
   }
 
   .description {
@@ -61,6 +68,12 @@
     color: #000000;
     margin-left: 0px;
     flex: 1;
+    display: block;
+    max-width: 100%;
+    padding-right: 0;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    white-space: wrap;
     /* padding-right: 10%; */
   }
 }
@@ -69,6 +82,7 @@
   text-decoration: underline;
   color: #000000;
   font-weight: 550;
+  margin-top: 60px;
 }
 
 .footer {

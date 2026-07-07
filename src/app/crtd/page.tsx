@@ -33,7 +33,7 @@ const ProjectOverview = () => {
         <p className={styles.header}>
           <b>Role</b>
         </p>
-        <p className={styles.overview}>co-founder</p>
+        <p className={styles.overview}>Co-founder</p>
         <p className={styles.header}>
           <b>Date</b>
         </p>
@@ -42,13 +42,11 @@ const ProjectOverview = () => {
           <b>Product</b>
         </p>
         <p className={styles.overview}>
-          crtd is an application to discover what your friends are reading /
-          watching / listening to <br />
-          it works by connecting your spotify, apple music, goodreads and
-          letterboxd accounts or by sharing links directly via SMS
+          Application to discover what your friends are reading / watching /
+          listening to <br />
         </p>
         <p className={styles.header}>
-          <b>Design process</b>
+          <b>Design</b>
         </p>
         <p className={styles.overview}>
           After reading about the Theory of Maximum Taste I knew I needed to

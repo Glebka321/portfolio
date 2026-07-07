@@ -23,7 +23,7 @@ export default function Home() {
           </a>
           <a href="/izzy">
             <p className={styles.description}>
-              AI companion app <br />
+              an AI companion app <br />
               <br />
               <i>view project</i>
             </p>
@@ -35,8 +35,8 @@ export default function Home() {
           </a>
           <a href="/crtd">
             <p className={styles.description}>
-              a consumer social application to find out what your friends are{" "}
-              reading / watching / listening to <br />
+              a web app to find out what your friends are reading / watching /
+              listening to <br />
               <br />
               <i>view project</i>
             </p>

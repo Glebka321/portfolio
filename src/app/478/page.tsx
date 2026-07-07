@@ -14,12 +14,18 @@ const ProjectOverview = () => {
           478
         </a>
       </p>
-      <ProjectImage src="/478.png" width={1920} height={1080} alt={""} priority />
+      <ProjectImage
+        src="/478.png"
+        width={1920}
+        height={1080}
+        alt={""}
+        priority
+      />
       <div className={styles.description}>
         <p className={styles.header}>
           <b>Role</b>
         </p>
-        <p className={styles.overview}>founder</p>
+        <p className={styles.overview}>Founder</p>
         <p className={styles.header}>
           <b>Date</b>
         </p>
@@ -31,7 +37,7 @@ const ProjectOverview = () => {
           iOS app to practice 4-7-8 breathing method
         </p>
         <p className={styles.header}>
-          <b>Design process</b>
+          <b>Design</b>
         </p>
         <p className={styles.overview}>
           We take roughly 20,000 breaths each day, and most of them go
