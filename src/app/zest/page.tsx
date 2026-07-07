@@ -36,7 +36,7 @@ const ProjectOverview = () => {
           <b>Product</b>
         </p>
         <p className={styles.overview}>
-          A private application based "speakeasy" for students
+          A private application based &quot;speakeasy&quot; for students
         </p>
         <p className={styles.header}>
           <b>Design</b>
