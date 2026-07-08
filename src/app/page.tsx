@@ -18,7 +18,7 @@ export default function Home() {
       </header>
       <div className={styles.projects}>
         <div className={styles.project}>
-          <a href="/https://apps.apple.com/us/app/izzy-friends/id6753328759">
+          <a href="https://apps.apple.com/us/app/izzy-friends/id6753328759">
             <b className={styles.title}>izzy & friends</b>
           </a>
           <a href="/izzy">
