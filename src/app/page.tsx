@@ -110,7 +110,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          twitter
+          x
         </a>
       </footer>
     </div>
