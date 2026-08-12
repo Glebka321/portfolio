@@ -13,7 +13,7 @@ export default function Home() {
         />
         <p className={styles.headerText}>
           <b>Gleb Tsyganov</b> <br /> <br />
-          product designer / entrepreneur
+          design + engineering
         </p>
       </header>
       <div className={styles.projects}>
