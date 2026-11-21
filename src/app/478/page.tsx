@@ -51,9 +51,11 @@ const ProjectOverview = () => {
           Around 50+ installs each month without any marketing.
         </p>
         <p className={styles.overview}>
-          A comment from a user from Ireland that encapsulates the product best:
-          &quot;5 stars. It is free, no ads, does exactly what it has to
-          do&quot;
+          A few user reviews from the App Store: <br /> &quot;5 stars. It is
+          free, no ads, does exactly what it has to do. &quot;
+          <br /> <br /> &quot;I got this for my daughter who recently started
+          having panic attacks at school. It's been an absolute life
+          saver.&quot;
         </p>
       </div>
     </div>
