@@ -54,7 +54,7 @@ const ProjectOverview = () => {
           A few user reviews from the App Store: <br /> &quot;5 stars. It is
           free, no ads, does exactly what it has to do. &quot;
           <br /> <br /> &quot;I got this for my daughter who recently started
-          having panic attacks at school. It`&apos;`,s been an absolute life
+          having panic attacks at school. It&apos;s been an absolute life
           saver.&quot;
         </p>
       </div>
